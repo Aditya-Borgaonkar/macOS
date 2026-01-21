@@ -1,0 +1,37 @@
+import React from 'react'
+import "./nav.scss"
+import DateTime from './DateTime'
+
+const Nav = () => {
+    return (
+        <nav>
+            <div className="left">
+                <div className="apple-icon">
+                    <img src="./Nav-icons/apple.svg" alt="" />
+                </div>
+                <div className="nav-items">
+                    <p>Aditya Borgaonkar</p>
+                </div>
+                <div className="nav-items">
+                    <p>File</p>
+                </div>
+                <div className="nav-items">
+                    <p>Window</p>
+                </div>
+                <div className="nav-items">
+                    <p>terminal</p>
+                </div>
+            </div>
+            <div className="right">
+                <div className="nav-icon">
+                    <img src="./Nav-icons/wifi.svg" alt="" />
+                </div>
+                <div className="nav-item">
+                    <DateTime />
+                </div>
+            </div>
+        </nav>
+    )
+}
+
+export default Nav
