@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "title": "macOS Window Manager",
+    "description": "Draggable and resizable macOS-style windows built with React.",
+    "tags": ["React", "UI", "Desktop","Tailwind"],
+    "repoLink": "https://github.com/bokuweb/react-rnd",
+    "demoLink": null
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947",
+    "title": "Developer Portfolio",
+    "description": "Minimal portfolio layout inspired by macOS design principles.",
+    "tags": ["Portfolio", "Frontend", "Design"],
+    "repoLink": "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+    "demoLink": "https://tailwind-nextjs-starter-blog.vercel.app/"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "macOS Dock Animation",
+    "description": "Dock-style hover magnification animation similar to macOS.",
+    "tags": ["Animation", "CSS", "UI"],
+    "repoLink": "https://github.com/Rajdeepcoder/macos-dock-animation",
+    "demoLink": null
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    "title": "File Manager UI",
+    "description": "Finder-like file manager interface with grid and sidebar layout.",
+    "tags": ["React", "Layout", "UX"],
+    "repoLink": "https://github.com/Asabeneh/30-Days-Of-React",
+    "demoLink": "https://asabeneh.github.io/30-Days-Of-React/"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc",
+    "title": "Control Panel Dashboard",
+    "description": "Clean dashboard UI inspired by macOS Control Center.",
+    "tags": ["UI", "Components", "CSS"],
+    "repoLink": "https://github.com/creativetimofficial/material-dashboard-react",
+    "demoLink": "https://demos.creative-tim.com/material-dashboard-react/"
+  }
+]
