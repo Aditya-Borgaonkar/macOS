@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Rnd } from 'react-rnd'
 import "./MacWindow.scss"
 
 const MacWindow = ({ children, windowName, setWindowsState, defaultWidth = "40vw", defaultHeight = "40vh" }) => {
+    const [isDraggingOrResizing, setIsDraggingOrResizing] = useState(false)
+
     return (
         <Rnd
             default={{ width: defaultWidth, height: defaultHeight, x: 300, y: 50 }}
@@ -20,12 +22,10 @@ const MacWindow = ({ children, windowName, setWindowsState, defaultWidth = "40vw
                 bottomLeft: true,
                 topLeft: true
             }}
-            resizeGrid={[1, 1]}
-            dragGrid={[1, 1]}
-            style={{
-                transition: 'box-shadow 0.2s ease',
-                willChange: 'transform'
-            }}
+            onDragStart={() => setIsDraggingOrResizing(true)}
+            onDragStop={() => setIsDraggingOrResizing(false)}
+            onResizeStart={() => setIsDraggingOrResizing(true)}
+            onResizeStop={() => setIsDraggingOrResizing(false)}
         >
             <div className="window">
                 <div className="nav">
@@ -38,7 +38,7 @@ const MacWindow = ({ children, windowName, setWindowsState, defaultWidth = "40vw
                         <p>{windowName || "adityaborgaonkar - zsh"}</p>
                     </div>
                 </div>
-                <div className="main-content">
+                <div className={`main-content ${isDraggingOrResizing ? 'no-pointer' : ''}`}>
                     {children}
                 </div>
             </div>

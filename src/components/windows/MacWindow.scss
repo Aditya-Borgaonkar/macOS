@@ -54,9 +54,20 @@
   }
 
   .main-content {
-    height: 100%;
+    height: calc(100% - 30px);
     overflow: auto;
     scrollbar-width: thin;
     scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+
+    &.no-pointer {
+      pointer-events: none;
+
+      iframe,
+      embed,
+      object,
+      video {
+        pointer-events: none;
+      }
+    }
   }
 }
