@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Rnd } from 'react-rnd'
 import "./MacWindow.scss"
 
-const MacWindow = ({ children, windowName, setWindowsState, defaultWidth = "40vw", defaultHeight = "40vh" }) => {
+const MacWindow = ({ children, windowName, setWindowsState, windowsState, defaultWidth = "40vw", defaultHeight = "40vh" }) => {
     const [isDraggingOrResizing, setIsDraggingOrResizing] = useState(false)
 
     return (
@@ -30,7 +30,7 @@ const MacWindow = ({ children, windowName, setWindowsState, defaultWidth = "40vw
             <div className="window">
                 <div className="nav">
                     <div className="dots">
-                        <div className="dot red"></div>
+                        <div onClick={() => setWindowsState({ ...state, [windowName]: false })} className="dot red"></div>
                         <div className="dot yellow"></div>
                         <div className="dot green"></div>
                     </div>
@@ -42,7 +42,7 @@ const MacWindow = ({ children, windowName, setWindowsState, defaultWidth = "40vw
                     {children}
                 </div>
             </div>
-        </Rnd>
+        </Rnd >
     )
 }
 
