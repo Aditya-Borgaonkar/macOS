@@ -27,8 +27,8 @@ A visually stunning, interactive macOS-style portfolio built with React and Vite
 | :------------------------------------------------------------------------------------------------------: | :-------------------------------------: |
 | ![Desktop View](https://raw.githubusercontent.com/Aditya-Borgaonkar/macOS/main/public/Mac-wallpaper.jpg) | ![Terminal](public/dokes-icons/cli.svg) |
 
-> [!NOTE]
-> Add your own screenshots here by replacing the links above!
+> ![Main Scren](image.png)
+> ![GitHub ](image-1.png)
 
 ## 🏁 Getting Started
 
