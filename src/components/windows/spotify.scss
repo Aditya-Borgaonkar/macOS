@@ -1,10 +1,21 @@
 .spotify-window {
   width: 100%;
   height: 100%;
+  animation: spotifyFadeIn 0.4s ease-out;
 
   iframe {
     width: 100%;
     height: 100%;
     border: none;
+    transition: opacity 0.3s ease;
+  }
+}
+
+@keyframes spotifyFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

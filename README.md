@@ -6,12 +6,14 @@ A visually stunning, interactive macOS-style portfolio built with React and Vite
 
 - **macOS Desktop Experience**: A familiar interface with a top navigation bar and an interactive bottom dock.
 - **Draggable & Resizable Windows**: All applications open in macOS-style windows that can be moved and resized.
-- **Interactive Terminal**: A fully functional CLI window with custom commands like `about`, `skills`, `projects`, and `resume`.
-- **Project Showcase**: A dedicated window to display GitHub projects with sleek styling.
-- **Resume Viewer**: Integrated PDF viewer for professional resumes.
-- **Notes App**: A minimalist note-taking interface.
-- **Spotify Integration**: Music player integration for a complete desktop feel.
+- **Smooth Animations**: High-performance animations for window transitions, dock interactions, and staggered project card entrance.
+- **Interactive Terminal**: A fully functional CLI window with custom commands and a blinking cursor animation.
+- **Project Showcase**: A dedicated window to display GitHub projects with sleek hover effects and staggered animations.
+- **Resume Viewer**: Integrated PDF viewer with smooth fade-in transitions.
+- **Notes App**: A minimalist note-taking interface with syntax highlighting and fade-in effects.
+- **Spotify Integration**: Music player integration with seamless window opening.
 - **Real-time Clock**: Dynamic date and time display in the menu bar.
+- **Premium UX**: Smooth easing curves (cubic-bezier) used across the site for an authentic macOS feel.
 
 ## 🛠️ Tech Stack
 

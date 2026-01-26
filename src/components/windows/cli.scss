@@ -1,7 +1,35 @@
 .cli-window {
   height: 100%;
+  animation: cliFadeIn 0.3s ease-out;
 
   div[name="react-console-emulator"] {
     height: 100%;
+  }
+
+  // Blinking cursor animation
+  .react-console-cursor {
+    animation: cursorBlink 1s step-end infinite;
+  }
+}
+
+@keyframes cliFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes cursorBlink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
   }
 }
