@@ -1,8 +1,8 @@
-# macOS Inspired Portfolio 🍎
+# macOS Inspired Portfolio 
 
 A visually stunning, interactive macOS-style portfolio built with React and Vite. This project replicates the macOS desktop environment, complete with a functional dock, draggable windows, a terminal, and more.
 
-## 🚀 Features
+##  Features
 
 - **macOS Desktop Experience**: A familiar interface with a top navigation bar and an interactive bottom dock.
 - **Draggable & Resizable Windows**: All applications open in macOS-style windows that can be moved and resized.
@@ -15,7 +15,7 @@ A visually stunning, interactive macOS-style portfolio built with React and Vite
 - **Real-time Clock**: Dynamic date and time display in the menu bar.
 - **Premium UX**: Smooth easing curves (cubic-bezier) used across the site for an authentic macOS feel.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: [React](https://reactjs.org/), [Vite](https://vitejs.dev/)
 - **Styling**: [SCSS](https://sass-lang.com/), Vanilla CSS
@@ -23,7 +23,7 @@ A visually stunning, interactive macOS-style portfolio built with React and Vite
 - **Terminal**: [react-console-emulator](https://github.com/linuswillner/react-console-emulator)
 - **Icons**: Custom SVG icons for the dock and system.
 
-## 📸 Screenshots
+##  Screenshots
 
 |                                               Desktop View                                               |             Terminal (CLI)              |
 | :------------------------------------------------------------------------------------------------------: | :-------------------------------------: |
@@ -32,7 +32,7 @@ A visually stunning, interactive macOS-style portfolio built with React and Vite
 > ![Main Scren](image.png)
 > ![GitHub ](image-1.png)
 
-## 🏁 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -65,13 +65,11 @@ A visually stunning, interactive macOS-style portfolio built with React and Vite
    npm run build
    ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-## 📄 License
 
-This project is licensed under the MIT License.
 
 ---
 
